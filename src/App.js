@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="top-container">
         <Navbar />
-        <img className="logo-1" src="/Images/boy-logo.png" alt="logo-img" />
+        {/* <img className="logo-1" src="/Images/boy-logo.png" alt="logo-img" /> */}
         <h1 className="my-name">I'm Abhijit.</h1>
         <p className="my-profesion">A Web Developer.</p>
       </div>
@@ -16,11 +16,11 @@ function App() {
       <div className="work-container">
         <h2 className="work-title">About Me.</h2>
         <div className="education">
-          <img
+          {/* <img
             className="education-logo"
             src="/Images/education-logo.png"
             alt="education-logo"
-          />
+          /> */}
           <h3 className="education-heading">Education.</h3>
           <p className="education-info">
             I am a final-year Computer Science student, with an expected
@@ -36,11 +36,11 @@ function App() {
           </p>
         </div>
         <div className="work-info">
-          <img
+          {/* <img
             className="code-icon"
             src="/Images/code-icon.png"
             alt="code-icon"
-          />
+          /> */}
           <h3 className="design-title">Skills.(The most Important thing.)</h3>
           <p className="project-info">
             I am a skilled frontend developer with good knowledge of Backend,
@@ -55,11 +55,11 @@ function App() {
         </div>
       </div>
       <div className="project">
-        <img
+        {/* <img
           className="project-logo"
           src="/Images/project-logo.png"
           alt="project-logo"
-        />
+        /> */}
         <h3 className="project-title">My Projects</h3>
         <p className="project-info">
           During my previous internship as a Frontend Developer Intern, I
