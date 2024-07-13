@@ -1,38 +1,210 @@
-.App {
+body {
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+hr {
+  border: dotted #2e4f4f;
+  border-bottom: none;
+  margin: 30px auto;
+  width: 100px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item {
+  margin: 0 20px;
+  font-size: 20px;
+}
+.nav-link {
+  color: #1c1259;
+  color: #fd7f5c;
+  color: #ff7a7f;
+}
+.container {
+  display: inline;
+}
+.my-name {
+  margin-top: 50px;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  font-size: 70px;
+  color: #ff9a9e;
+}
+.my-profesion {
+  color: #fad0c4;
+  font-size: 35px;
+  margin-top: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.logo-1 {
+  position: absolute;
+  width: 250px;
+  left: 70px;
+  top: 50px;
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.work-title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: "Tilt Neon", cursive;
+  color: #ff9a9e;
+  margin-bottom: 0px;
+}
+
+.code-icon {
+  width: 130px;
+  float: right;
+  margin-right: 20px;
+}
+
+.work-info {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+  color: rgb(83, 45, 45);
+  text-align: center;
+}
+.project-title {
+  color: #362fd9;
+  font-size: 20px;
+  text-align: left;
+  color: #ff7a7f;
+}
+.design-title {
+  color: #362fd9;
+  font-size: 20px;
+  text-align: left;
+  color: #ff7a7f;
+}
+.project {
+  width: 50%;
+  margin: 50px auto 0 auto;
+}
+.project-logo {
+  float: left;
+  margin-right: 20px;
+}
+.project-info {
+  /* line-height: 1.5; */
+  text-align: left;
+  text-align: start;
+}
+.education {
+  width: 50%;
+  margin: auto;
+}
+.education-logo {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+.education-info {
+  /* line-height: 1.5; */
+  margin-bottom: 50px;
+  text-align: justify;
+  word-spacing: 0.5px;
+  color: rgb(83, 45, 45);
+}
+.education-heading {
+  color: #ff7a7f;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+.get-in-touch {
+  text-align: center;
+  color: #060047;
+  font-size: 35px;
+  font-family: "Tilt Neon", cursive;
+  margin-bottom: 50px;
+  color: #fad0c4;
+}
+.contact-me-heading {
+  text-align: center;
+}
+
+.btn {
+  background: #a555ec;
+  background-image: -webkit-linear-gradient(top, #a555ec, #a555ec);
+  background-image: -moz-linear-gradient(top, #a555ec, #a555ec);
+  background-image: -ms-linear-gradient(top, #a555ec, #a555ec);
+  background-image: -o-linear-gradient(top, #a555ec, #a555ec);
+  background-image: linear-gradient(to bottom, #a555ec, #a555ec);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: "Tilt Neon", cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  color: rgb(83, 45, 45);
+}
+.fotter {
+  /* background-color: #8479e1; */
+  margin: 50px auto 0 auto;
+  height: 100px;
+}
+.copyright {
+  margin-bottom: 0;
+  margin-top: 20px;
+  color: #8479e1;
+  font-size: 14px;
+}
+.contact {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: "Tilt Neon", cursive;
+  color: #1c1259;
+}
+.contact:hover {
+  color: #d5daeb;
+  color: rgb(83, 45, 45);
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);
+  background-size: 600% 600%;
+  z-index: -1;
+  animation: gradientBackground 10s ease infinite;
 }
