@@ -75,15 +75,15 @@ hr {
 }
 .project-title {
   color: #362fd9;
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
-  color: #ff7a7f;
+  color: #fad0c4;
 }
 .design-title {
   color: #362fd9;
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
-  color: #ff7a7f;
+  color: #fad0c4;
 }
 .project {
   width: 50%;
@@ -95,8 +95,9 @@ hr {
 }
 .project-info {
   /* line-height: 1.5; */
-  text-align: left;
+  text-align: justify;
   text-align: start;
+  color: #d7141e;
 }
 .education {
   width: 50%;
@@ -111,14 +112,15 @@ hr {
   /* line-height: 1.5; */
   margin-bottom: 50px;
   text-align: justify;
-  word-spacing: 0.5px;
-  color: rgb(83, 45, 45);
+  /* word-spacing: 0.5px; */
+  color: #d7141e;
 }
 .education-heading {
-  color: #ff7a7f;
-  font-size: 20px;
+  color: #fad0c4;
+  font-size: 25px;
   margin-top: 30px;
   text-align: left;
+  font-family: "Tilt Neon", cursive;
 }
 .get-in-touch {
   text-align: center;

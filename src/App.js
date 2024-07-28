@@ -1,5 +1,6 @@
 import "./App.css";
 import "./index.css";
+import img from "./Images/boy-logo.png";
 import Navbar from "./component/Navbar";
 import ProjectBar from "./component/ProjectBars";
 
@@ -8,7 +9,7 @@ function App() {
     <>
       <div className="top-container">
         <Navbar />
-        {/* <img className="logo-1" src="/Images/boy-logo.png" alt="logo-img" /> */}
+        <img className="logo-1" src={img} alt="logo-img" />
         <h1 className="my-name">I'm Abhijit.</h1>
         <p className="my-profesion">A Web Developer.</p>
       </div>
@@ -21,7 +22,7 @@ function App() {
             src="/Images/education-logo.png"
             alt="education-logo"
           /> */}
-          <h3 className="education-heading">Education.</h3>
+          <h2 className="education-heading">Education.</h2>
           <p className="education-info">
             I am a final-year Computer Science student, with an expected
             graduation in Year 2025. I am deeply passionate about web
