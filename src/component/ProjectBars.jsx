@@ -3,7 +3,7 @@ import "../App.css";
 
 const ProjectBar = () => {
   return (
-    <div>
+    <div id="Projects">
       <div className="flex items-center justify-center mt-8">
         <main className="w-full max-w-fit">
           <div className="p-4 rounded-lg flex items-center shadow-md">
